@@ -2,14 +2,14 @@
 //Modal Varriable
 const modal = document.querySelector("[data-modal]");
 const modalCloseOverlay = document.querySelector("[data-model-overlay]");
-const modalCloseBtn = document.querySelector("[data-modal-close]");
+//const modalCloseBtn = document.querySelector("[data-modal-close]");
 //Modal Function
 const modalColseFunc = function () {
   modal.classList.add("closed");
 };
 //Modal addEventListener
 modalCloseOverlay.addEventListener("click", modalColseFunc);
-modalCloseBtn.addEventListener("click", modalColseFunc);
+//modalCloseBtn.addEventListener("click", modalColseFunc);
 
 //notification toast Varriable
 const notificationToast = document.querySelector("[data-toast]");
